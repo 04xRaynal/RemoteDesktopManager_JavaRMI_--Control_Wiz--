@@ -29,9 +29,9 @@ Here we provide the implementation of the interface methods,
  
 Methods are: 
  
-Check the password entered by the Client Machine and match it with the password of the Server Machine;__
-Capture the Server Screen as an Image and convert it into a Byte Array;__
-Return the Dimension(Width and Height) of the Server Machine' Screen;__
+Check the password entered by the Client Machine and match it with the password of the Server Machine;\
+Capture the Server Screen as an Image and convert it into a Byte Array;\
+Return the Dimension(Width and Height) of the Server Machine' Screen;\
 Provide implementation for the Robot class methods which send inputs such as (Mouse Movement, Mouse Action and Keyboard Action) from the Client Machine to the Server Machine.
 
 ---
