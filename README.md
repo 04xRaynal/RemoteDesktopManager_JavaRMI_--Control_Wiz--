@@ -14,17 +14,15 @@ Following the RMI Syntax, these are the Classes created:
 
 ScreenEvent.java
 
-A Remote Interface.
+A Remote Interface.\
 This interface, extends the Remote interface and declares the RemoteException for all the methods of the interface.
 
 ---
 
 ScreenEventImpl.java
 
-This class provides the implementation of the Remote Interface.
-
-To provide implementation of the remote interface we extend the UnicastRemoteObject class, and define a constructor that declares the Remote Exception.
-  
+This class provides the implementation of the Remote Interface.\
+To provide implementation of the remote interface we extend the UnicastRemoteObject class, and define a constructor that declares the Remote Exception.\
 Here we provide the implementation of the interface methods,
  
 Methods are: 
@@ -38,8 +36,7 @@ Provide implementation for the Robot class methods which send inputs such as (Mo
 
 DesktopServer.java
 
-Server class to run on the Server Machine.
- 
+Server class to run on the Server Machine.\
 Prompts the user to Set up a Password for Remote Connection via a Swing GUI.
 
 Also displays the IP Address of your Machine (private IP for intraNet and public/router IP for Internet) which the Client needs to input in order to establish connection.
@@ -52,10 +49,10 @@ After the Password is entered the Naming class method gets and stores the remote
 
 DesktopClient.java
 
-Client class to run on the Client Machine
+Client class to run on the Client Machine.
  
-A Swing GUI is displayed to input the Server IP Address and Password. 
-The password should be similar to what the Server entered while creating Connection.
+A Swing GUI is displayed to input the Server IP Address and Password. \
+The password should be similar to what the Server entered while creating Connection.\
 For IP Address, input private IP for intraNet Connection and public/ Router IP for Internet Connection.
  
 If the eneterd password matches to the Server' password, Naming class gets the stub object via the lookup() method.
@@ -67,5 +64,3 @@ The stub object is then used to get the Server' screen onto the Client Machine a
 ![Capture_RemoteDesktopManager_RemoteScreen.PNG](https://github.com/04xRaynal/RemoteDesktopManager_JavaRMI_--Control_Wiz--/blob/798d1b2720da6fd81883ad8e6445e343e170d39d/Captured%20Images/Capture_RemoteDesktopManager_RemoteScreen.PNG)
 
 ---
-
-
