@@ -5,9 +5,12 @@
 
 Both Machines can be connected locally via the intraNet and also via the Internet if not connected locally on the same network.
 
+Project Demo: [Remote Desktop Manager --ControlWiz--](https://replit.com/@MajinVegetaSSJ2/Remote-Desktop-Manager-Java-RMI-ControlWiz?v=1)
+
 ---
 
 ### The Client can control operation on the Server Machine, this is achieved through the Robot Class.
+
 ---
 
 Following the RMI Syntax, these are the Classes created:
